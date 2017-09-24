@@ -1,5 +1,20 @@
-vendor
-.dep
-release
-releases
-shared
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
