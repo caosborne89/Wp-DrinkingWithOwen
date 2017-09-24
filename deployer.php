@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/common.php';
 
 // Project name
-set('application', 'my_project');
+set('application', 'drinking_with_o');
 
 // Project repository
 set('repository', 'https://github.com/caosborne89/Wp-DrinkingWithOwen.git');
@@ -13,11 +13,11 @@ set('repository', 'https://github.com/caosborne89/Wp-DrinkingWithOwen.git');
 set('git_tty', true); 
 
 // Shared files/dirs between deploys 
-set('shared_files', ['.env']);
-set('shared_dirs', ['web/app/uploads']);
+set('shared_files', []);
+set('shared_dirs', []);
 
 // Writable dirs by web server 
-set('writable_dirs', ['web/app/uploads']);
+set('writable_dirs', []);
 
 // Keep up to three releases
 set('keep_releases', 5);
