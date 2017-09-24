@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/common.php';
 
 // Project name
-set('application', 'my_project');
+set('application', 'drinking_with_o');
 
 // Project repository
 set('repository', 'https://github.com/caosborne89/Wp-DrinkingWithOwen.git');
