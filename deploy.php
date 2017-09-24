@@ -19,7 +19,7 @@ set('shared_dirs', ['web/app/uploads']);
 // Writable dirs by web server 
 set('writable_dirs', ['web/app/uploads']);
 
-// Keep up to three releases
+// Keep up to five releases
 set('keep_releases', 5);
 
 // Hosts
