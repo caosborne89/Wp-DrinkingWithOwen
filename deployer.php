@@ -13,14 +13,14 @@ set('repository', 'https://github.com/caosborne89/Wp-DrinkingWithOwen.git');
 set('git_tty', true); 
 
 // Shared files/dirs between deploys 
-set('shared_files', []);
-set('shared_dirs', []);
+set('shared_files', ['.env']);
+set('shared_dirs', ['web/app/uploads']);
 
 // Writable dirs by web server 
-set('writable_dirs', []);
+set('writable_dirs', ['web/app/uploads']);
 
 // Keep up to three releases
-set('keep_releases', 3);
+set('keep_releases', 5);
 
 // Hosts
 

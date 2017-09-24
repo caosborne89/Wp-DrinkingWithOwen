@@ -58,6 +58,9 @@
     ],
     "test": [
       "vendor/bin/phpcs"
+    ],
+    "wp:install": [
+      "vendor/bin/wp core install"
     ]
   }
 }
